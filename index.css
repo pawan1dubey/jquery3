@@ -1,0 +1,153 @@
+.container1{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+align-items: flex-start;
+justify-content: flex-start;
+
+
+
+}
+
+.item{
+
+width: 25%
+
+}
+
+
+#admission{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+
+}
+
+#courses{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+.button1{
+
+    
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+
+
+.adm{
+
+background-color: orange;
+
+
+}
+
+.crs{
+
+background-color: orange;
+
+}
+
+
+@media screen and (max-width: 480px){
+
+.container1{
+flex-direction: column;
+}
+
+.item{
+
+width: 100%
+
+}
+
+}
+
+
+
+
+.container2{
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: flex-start;
+}
+
+.button{
+
+ 
+    text-align: left;
+    width: 100%;
+    color: blue;
+    border: 2px solid #808080;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+
+}
+
+.content{
+border-top: none;
+border-left: 2px solid #808080;
+border-right: 2px solid #808080;
+border-bottom: none;
+    outline: none;
+}
+
+#content3{
+border-bottom: 2px solid #808080;
+}
+
+.button:hover{
+ text-decoration:underline;
+}
+
+.container3{
+
+height: 240px;
+width: 50%;
+background-color: #E5E7E9;
+ position: absolute;
+    top: 30px;
+    right: 30%;
+border : 1px solid green;
+box-shadow: 10px 10px 8px 10px #888888;
+}
+
+#top{
+
+height: 30%;
+
+}
+
+#middle{
+
+height: 30%;
+
+}
+
+#bottom{
+
+height: 40%;
+
+}
+
+#modalbtn{
+
+border: none;
+outline: none;
+height: 30px;
+width: 200px;
+cursor: pointer;
+background-color: #FFA07A;
+
+}
